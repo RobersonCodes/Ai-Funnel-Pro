@@ -1,0 +1,50 @@
+:root {
+
+  /* COLORS */
+  --bg-primary: #050816;
+  --bg-secondary: #0b1120;
+  --bg-card: rgba(255, 255, 255, 0.05);
+
+  --color-primary: #7c3aed;
+  --color-secondary: #06b6d4;
+
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+
+  /* GRADIENTS */
+  --gradient-primary:
+    linear-gradient(
+      135deg,
+      #7c3aed,
+      #06b6d4
+    );
+
+  --gradient-dark:
+    linear-gradient(
+      135deg,
+      #050816,
+      #0b1120
+    );
+
+  /* SHADOWS */
+  --shadow-primary:
+    0 10px 40px rgba(124, 58, 237, 0.35);
+
+  --shadow-card:
+    0 10px 30px rgba(0, 0, 0, 0.35);
+
+  /* BORDER RADIUS */
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+
+  /* CONTAINER */
+  --container-width: 1280px;
+
+  /* TRANSITIONS */
+  --transition:
+    all 0.35s ease;
+
+}
