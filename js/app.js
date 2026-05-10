@@ -316,3 +316,39 @@ document.addEventListener(
 
   }
 );
+/* WHATSAPP LEAD FORM */
+
+const leadForm =
+  document.querySelector(".lead-form");
+
+leadForm.addEventListener(
+  "submit",
+  (e) => {
+
+    e.preventDefault();
+
+    const inputs =
+      leadForm.querySelectorAll("input");
+
+    const nome = inputs[0].value;
+    const email = inputs[1].value;
+    const whatsapp = inputs[2].value;
+
+    const mensagem =
+`Olá, meu nome é ${nome}.
+
+Email: ${email}
+WhatsApp: ${whatsapp}
+
+Quero receber uma estratégia para escalar minhas campanhas.`;
+
+    const numero =
+      "5551-99164-0903";
+
+    const url =
+`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+
+    window.open(url, "_blank");
+
+  }
+);
